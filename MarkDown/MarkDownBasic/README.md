@@ -233,6 +233,7 @@ _single underscores_
 
 ```
 <details>
+  <summary>더보기</summary>
   <div markdown="1">
   숨겨진 내용1
   </div>
@@ -243,6 +244,7 @@ _single underscores_
 ```
 
 <details>
+  <summary>더보기</summary>
   <div markdown="1">
   숨겨진 내용1
   </div>
