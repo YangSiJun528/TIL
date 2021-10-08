@@ -13,6 +13,7 @@
 - <details>
     <summary>기본 인터넷 지식</summary>
     <div markdown="1">
+    
     - [인터넷은 어떻게 동작하는가? - Web 개발 학습하기 | MDN](https://developer.mozilla.org/ko/docs/Learn/Common_questions/How_does_the_Internet_work)
     
     - [웹의 동작 방식 - Web 개발 학습하기 | MDN](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
