@@ -217,7 +217,7 @@ _single underscores_
 
 <img src="./img.png" width="300px" height="300px" alt="Daisy"></img>
 
-### 줄바꿈
+### **줄바꿈**
 
 3칸 이상 띄어쓰기를 하면 줄이 바뀐다.
 
@@ -228,3 +228,25 @@ _single underscores_
 
 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.  
 이렇게
+
+### **토글리스트**
+
+```
+<details>
+  <div markdown="1">
+  숨겨진 내용1
+  </div>
+  <div markdown="2">
+  숨겨진 내용2
+  </div>
+</details>
+```
+
+<details>
+  <div markdown="1">
+  숨겨진 내용1
+  </div>
+  <div markdown="2">
+  숨겨진 내용2
+  </div>
+</details>
