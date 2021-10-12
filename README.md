@@ -24,21 +24,32 @@
 
   - [What is a domain name? - Web 개발 학습하기 | MDN](https://developer.mozilla.org/ko/docs/Learn/Common_questions/What_is_a_domain_name)
 
-  ### HTTP
-
-  - [HTTP | MDN](https://developer.mozilla.org/ko/docs/Web/HTTP)
-  - [HTTP/HTTPS](./https/README.md)
-
-  ### Critical rendering path
-
-  - [중요 렌더링 경로 - Web Performance | MDN](https://developer.mozilla.org/ko/docs/Web/Performance/Critical_rendering_path)
-
-  - [DOM 소개 - Web API | MDN](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction)
-
-  - [렌더 트리(Render Tree), CRP(Critical Rendering Path)](https://onlydev.tistory.com/9)
-
     </div>
   </details>
+
+  - <details>
+    <summary>HTTP</summary>
+    <div markdown="1">
+      
+      - [HTTP | MDN](https://developer.mozilla.org/ko/docs/Web/HTTP)
+
+    - [HTTP/HTTPS](./https/README.md)
+
+      </div>
+    </details>
+
+    - <details>
+      <summary>Critical rendering path</summary>
+      <div markdown="1">
+
+      - [중요 렌더링 경로 - Web Performance | MDN](https://developer.mozilla.org/ko/docs/Web/Performance/Critical_rendering_path)
+
+      - [DOM 소개 - Web API | MDN](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/Introduction)
+
+      - [렌더 트리(Render Tree), CRP(Critical Rendering Path)](https://onlydev.tistory.com/9)
+
+        </div>
+      </details>
 
 ### **"Java"**
 
@@ -50,6 +61,7 @@
 
 ### **"Spring"**
 
+- [Bulid Tool](./Spring/BulidTool/README.md)
 - [Maven VS Gradle](./Spring/MavenVSGradle/README.md)
 
 ### **"Spring Boot"**
