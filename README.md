@@ -33,7 +33,7 @@
       
       - [HTTP | MDN](https://developer.mozilla.org/ko/docs/Web/HTTP)
 
-    - [HTTP/HTTPS](./https/README.md)
+    - [HTTP/HTTPS](./Network/basic/HTTPS/README.md)
 
       </div>
     </details>
