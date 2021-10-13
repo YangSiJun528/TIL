@@ -33,7 +33,7 @@
       
       - [HTTP | MDN](https://developer.mozilla.org/ko/docs/Web/HTTP)
 
-    - [HTTP/HTTPS](./Network/basic/HTTPS/HTTPS.md)
+    - [HTTP/HTTPS](./Network\Basic\HTTPS\HTTPS.md)
 
       </div>
     </details>
@@ -51,7 +51,7 @@
         </div>
       </details>
 
-      - [RestAPI](./Network/RESTAPI/RESTAPI.md)
+      - [RestAPI](./Network\RestAPI\RESTAPI.md)
 
 ### **"Java"**
 
