@@ -207,7 +207,7 @@ _single underscores_
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
 
-![Alt(이미지 깨질때) text](./img.png "호버 택스트")
+![Alt(이미지 깨질때) text](./img/img.png "호버 택스트")
 
 사이즈 조절 기능은 없기 때문에 `<img width="" height=""></img>` 를 이용한다
 

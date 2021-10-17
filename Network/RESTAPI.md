@@ -1,6 +1,6 @@
 # **REST API**
 
-![rest.png](./rest.png)
+![rest.png](./img/rest.png)
 
 # REST란(REpresentational State Transfer)
 
@@ -90,7 +90,7 @@ REST 서버는 다중 계층으로 구성될 수 있으며 보안, 로드 밸런
 
 다음과 같은 식으로 URI는 자원을 표현하는 데에 집중하고 행위에 대한 정의는 HTTP Method를 통해 하는 것이 REST한 API를 설계하는 중심 규칙입니다.
 
-![table.png](./table.png)
+![table.png](./img/table.png)
 
 ### 4-2. URI 설계 시 주의할 점
 

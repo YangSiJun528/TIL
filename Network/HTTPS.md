@@ -12,7 +12,7 @@ HTTP는 애플리케이션 레벨의 프로토콜로 TCP/IP 위에서 작동한�
 
 HTTP는 상태를 가지고 있지 않는 Stateless 프로토콜이며 Method, Path, Version, Headers, Body 등으로 구성된다.
 
-![img.png](./img.png)
+![img.png](./img/img.png)
 
 ## HTTP의 특징과 장단점
 
