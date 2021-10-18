@@ -6,7 +6,7 @@
 
 ### **"Mark Down"**
 
-- [Mark Down 기본 문법](MarkDown\MarkDownBasic.md)
+- [Mark Down 기본 문법](MarkDown/MarkDownBasic.md)
 
 ### **"Network"**
 
@@ -33,7 +33,7 @@
       
       - [HTTP | MDN](https://developer.mozilla.org/ko/docs/Web/HTTP)
 
-    - [HTTP/HTTPS](Network\HTTPS.md)
+    - [HTTP/HTTPS](Network/HTTPS.md)
 
       </div>
     </details>
@@ -51,7 +51,7 @@
         </div>
       </details>
 
-      - [RestAPI](Network\RESTAPI.md)
+      - [RestAPI](Network/RESTAPI.md)
 
 ### **"Java"**
 
@@ -63,7 +63,7 @@
 
 ### **"Spring"**
 
-- [Bulid Tool](Spring\BuildTool.md)
-- [Maven VS Gradle](Spring\MavenVsGradle.md)
+- [Bulid Tool](Spring/BuildTool.md)
+- [Maven VS Gradle](Spring/MavenVsGradle.md)
 
 ### **"Spring Boot"**
