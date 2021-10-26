@@ -55,11 +55,7 @@
 
 ### **"Java"**
 
-- <details>
-    <summary>기본 문법</summary>
-      <div markdown="1">
-      </div>
-  </details>
+- [Annotation](Java/Annotation.md)
 
 ### **"Spring"**
 
