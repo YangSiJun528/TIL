@@ -59,13 +59,14 @@
 - [Math Class](Java/Math.md)
 - [String, StringBuffer, StringBuilder 비교](Java/String_B.md)
 - [UpCating / DownCating](Java/UpDown.md)
-- [DTO / DAO](Java/DtoDao.md)
-  https://blog.javabom.com/minhee/spring-boot/jpa/dao-dto-entity
-  이거 보고 수정 필요함
+
+- [interface의 요소](Java/interface.md)
 
 ### **"Spring"**
 
 - [Bulid Tool](Spring/BuildTool.md)
 - [Maven VS Gradle](Spring/MavenVsGradle.md)
+- [DTO / DAO / Entity](Spring/DtoDaoEntity.md)
+  - [전체 구조](Spring/Structure.md)
 
 ### **"Spring Boot"**
