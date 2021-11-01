@@ -60,6 +60,8 @@
 - [String, StringBuffer, StringBuilder 비교](Java/String_B.md)
 - [UpCating / DownCating](Java/UpDown.md)
 - [DTO / DAO](Java/DtoDao.md)
+  https://blog.javabom.com/minhee/spring-boot/jpa/dao-dto-entity
+  이거 보고 수정 필요함
 
 ### **"Spring"**
 
