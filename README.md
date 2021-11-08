@@ -59,8 +59,11 @@
 - [Math Class](Java/Math.md)
 - [String, StringBuffer, StringBuilder 비교](Java/String_B.md)
 - [UpCating / DownCating](Java/UpDown.md)
-
 - [interface의 요소](Java/interface.md)
+
+### **"자바로 구현한 자료구조"**
+
+- [Array](JavaDataStructure/Array.md)
 
 ### **"Spring"**
 
