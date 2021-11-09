@@ -10,7 +10,7 @@
 - 문자열의 변경이 잦은 경우 좋은 성능을 보인다.
 - StringBuffer 는 동기화를 지원하여 멀티쓰레드 환경에서 안전하다.(thread-safe)
 
-# **StringBuffer**
+# **StringBuilder**
 
 - 가변(mutable)성을 가진다.
 - 문자열의 변경이 잦은 경우 좋은 성능을 보인다.
