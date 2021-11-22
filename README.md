@@ -56,6 +56,7 @@
 ### **"Java"**
 
 - [겍체지향(OOP)](Java/OOP.md)
+- [겍체지향 설계 5원칙(SOLID)](Java/SOLID.md)
 - [Annotation](Java/Annotation.md)
 - [Math Class](Java/Math.md)
 - [String, StringBuffer, StringBuilder 비교](Java/String_B.md)
