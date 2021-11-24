@@ -1,12 +1,12 @@
-# POJO
+# **POJO**
 
-## POJO(Plain Old Java Object)란?
+## **POJO(Plain Old Java Object)란?**
 
 직역하면 오래된 방식의 단순 자바 객체이다.
 
 특별한 환경(프레임워크, 특정 자바 모델 등)에 종속되지 않는 일반적인 Java 객체를 의미한다.
 
-## 등장 배경
+## **등장 배경**
 
 기존의 자바의 기초적인 JDK만으로는 복잡해진 비즈니스 로직을 해결하기 힘들었다. 특히 로우레벨(멀티쓰레딩, 상태관리, 보안)
 
@@ -14,7 +14,7 @@
 
 객체지향 원리에 따라 만들어진 자바 언어의 기본에 충실하게 비즈니스 로직을 구현하는 일명 POJO 방식으로 이러한 문제들을 해결해야 한다는 주장이 나오기 시작했다.
 
-## POJO 정의
+## **POJO 정의**
 
 이상적으로, POJO는 자바 언어 사양 외에 어떠한 제한에도 묶이지 않은 자바 오브젝트라고 할 수 있다.
 
@@ -23,24 +23,24 @@
 1. 미리 정의된 클래스의 확장. 예:
 
    ```java
-   **public** **class** **Foo** **extends** javax.servlet.http.HttpServlet { ...
+   public class Foo extends javax.servlet.http.HttpServlet { ...
    ```
 
 2. 미리 정의된 인터페이스의 구현. 예:
 
    ```java
-   **public** **class** **Bar** **implements** javax.ejb.EntityBean { ...
+   public class Bar implements javax.ejb.EntityBean { ...
    ```
 
-3. 미리 정의된 [애너테이션](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%EC%95%A0%EB%84%88%ED%85%8C%EC%9D%B4%EC%85%98)을 포함. 예:
+3. 미리 정의된 애노테이션을 포함. 예:
 
    ```java
-   @javax.persistence.Entity **public** **class** **Baz** { ...
+   @javax.persistence.Entity public class Baz { ...
    ```
 
 그러나 기술적 어려움과 다른 이유로 인해, POJO-compliant라고 기술된 많은 소프트웨어 제품이나 프레임워크들(persistence, spring)은 제대로 동작하는 기능을 구현하기 위해 미리 정의된 Annotation을 필요로 합니다.
 
-## POJO 장점
+## **POJO 장점**
 
 - 깔끔한 코드
 - 간편한 테스트
