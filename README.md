@@ -72,11 +72,13 @@
 
 - [Bulid Tool](Spring/BuildTool.md)
 - [Maven VS Gradle](Spring/MavenVsGradle.md)
+
 - [DTO / DAO / Entity](Spring/DtoDaoEntity.md)
   - [전체 구조](Spring/Structure.md)
 
 ### **"Spring Boot"**
 
 - [Spring Boot](SpringBoot/SpringBoot.md)
+- [IoC](SpringBoot/IoC.md)
 - [Swagger](SpringBoot/Swagger.md)
 - [Lombok](SpringBoot/Lomobk.md)
