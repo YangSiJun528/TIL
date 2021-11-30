@@ -8,7 +8,6 @@
   - DB와 통신
   - CRUD(생성, 읽기, 갱신, 삭제) 작업을 시행
   - DB 접근 로직과 비즈니스 로직을 분리하기 위해 사용
-  -
 
 ## **예시 코드**
 
@@ -39,24 +38,36 @@ public static void main(){
 ## **예시 코드**
 
 ```java
-public class MyUser{
-    private int uidnum;
-    private String uid;
-    private String upw;
-    private String phonenum;
-    private int age;
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+public class UserDto {
+  @NotBlank
+  @Pattern(regexp = "^([\\w-]+(?:\\.[\\w-]+)*)@((?:[\\w-]+\\.)*\\w[\\w-]{0,66})\\.([a-z]{2,6}(?:\\.[a-z]{2})?)$")
+  private String email;
 
-    public int getUidnum(){
-    	return this.name;
-    }
-    public void setUidnum(int uidnum){
-    	this.uid = uidnum;
-    }
-    // ... 중략
+  @JsonIgnore
+  @NotBlank
+  @Size(min = 4, max = 15)
+  private String password;
+
+  @NotBlank
+  @Size(min = 6, max = 10)
+  private String name;
+
+  public User toEntity() {
+      return new User(email, password, name);
+  }
+
+  public User toEntityWithPasswordEncode(PasswordEncoder bCryptPasswordEncoder) {
+      return new User(email, bCryptPasswordEncoder.encode(password), name);
+  }
+}
+https://gmlwjd9405.github.io/2018/12/25/difference-dao-dto-entity.html
 }
 ```
 
-# Entity Class란
+# **Entity Class란**
 
 ### **domain package**
 
