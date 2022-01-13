@@ -27,6 +27,7 @@
 - [String, StringBuffer, StringBuilder 비교](Java/String_B.md)
 - [UpCating / DownCating](Java/UpDown.md)
 - [interface의 요소](Java/interface.md)
+- [열거 타입(Enum)](Java/enum.md)
 
 ### **"자바로 구현한 자료구조"**
 
